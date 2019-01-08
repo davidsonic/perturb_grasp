@@ -26,7 +26,7 @@ The interactive training process is asynchronous and human interaction with RL a
 
 ### Visualization
 
-- Training curve plots with multiple seeds
+- Training curve plots with multiple seeds (variance shown)
 
 
 ## Installation
@@ -35,7 +35,7 @@ The interactive training process is asynchronous and human interaction with RL a
 2. Install self_brewed_mujoco_py at [Self mujoco-py](https://github.com/davidsonic/self_brewed_mujoco_py)
 3. Install self_brewed_gym at [Self gym](https://github.com/davidsonic/self_brewed_gym)
 4. Install this code repository.
-
+5. Install Jupyter Notebook (Optional)
 
 ## Usage
 
@@ -65,6 +65,28 @@ python gui.py
 ```
 python python eval_ppo_server.py --range=0.6 --save_path='model_path' --seed=997
 ```
+
+### Miscellaneous
+
+1. Visualize the training curve
+
+```
+Start plot_loss.ipynb in jupyter notebook
+```
+
+
+2. Video recording of evaluation
+
+```
+Press v during evaluation
+```
+
+3. Apply force
+
+```
+Double click the object of interest, and press ctrl + right mouse
+```
+or use the GUI interface.
 
 
 ## Other Parameters
