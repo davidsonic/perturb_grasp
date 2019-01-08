@@ -29,6 +29,11 @@ The interactive training process is asynchronous and human interaction with RL a
 - Training curve plots with multiple seeds (variance shown)
 
 
+### Results
+
+In the results folder
+
+
 ## Installation
 
 1. Install Mujoco [MuJoCo website](https://www.roboti.us/license.html)
@@ -109,3 +114,10 @@ optional arguments:
 ```
 
 
+## To-do List
+
+1. Compare human-adversarial (random) training with adversarial agent
+
+2. Use experience-replay based methods for sample efficiency
+
+3. Pretrain + human
