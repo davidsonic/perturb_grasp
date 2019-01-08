@@ -84,9 +84,9 @@ Press v during evaluation
 3. Apply force
 
 ```
-Double click the object of interest, and press ctrl + right mouse
+Double click the object of interest, and press ctrl + right mouse or use the GUI interface.
 ```
-or use the GUI interface.
+
 
 
 ## Other Parameters
