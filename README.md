@@ -39,4 +39,51 @@ The interactive training process is asynchronous and human interaction with RL a
 
 ## Usage
 
+### To run training experiments with human interaction:
+
+1. Start service under play folder
+
+```
+python server.py
+```
+
+2. Start GUI interface under play folder
+
+```
+python gui.py
+```
+
+3. Start RL algorithms under reimplementation folder
+
+ ```
+ python run_mujoco_human.py --range==0.5
+ ```
+
+
+### To validate trained model with human interaction:
+
+```
+python python eval_ppo_server.py --range=0.6 --save_path='model_path' --seed=997
+```
+
+
+## Other Parameters
+
+1. The server end defaultly uses 33000 port
+2. Range denotes the strength of the force:
+
+```
+usage: eval_ppo_server.py [-h] [--env ENV] [--seed SEED]
+                          [--save_path SAVE_PATH] [--range RANGE]
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --env ENV             environment ID (default: MyInvertedPendulum-v2)
+  --seed SEED           RNG seed (default: 0)
+  --save_path SAVE_PATH
+                        save model path (default: /tmp/gym/ppo_1_inverted_pend
+                        ulum_seeds/rand2-0/best_model)
+  --range RANGE         adv force range (default: 0)
+```
+
 
