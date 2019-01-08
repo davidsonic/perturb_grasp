@@ -1,0 +1,15 @@
+Fri Dec 21 03:46:24 2018
+ERROR: Invalid activation key
+
+Fri Dec 21 17:06:46 2018
+ERROR: OpenGL version 1.5 or higher required
+
+Fri Dec 21 17:07:32 2018
+ERROR: OpenGL version 1.5 or higher required
+
+Sun Dec 23 07:50:07 2018
+ERROR: OpenGL version 1.5 or higher required
+
+Sun Dec 23 07:50:33 2018
+ERROR: OpenGL version 1.5 or higher required
+
